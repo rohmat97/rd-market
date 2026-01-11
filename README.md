@@ -1,16 +1,64 @@
-# React + Vite
+# RD Market
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce shopping cart application built with React, Vite, and TailwindCSS, featuring PayPal integration for secure checkout.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://rohmat97.github.io/rd-market/](https://rohmat97.github.io/rd-market/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- 🛍️ **Product Catalog**: Browse available products with images and prices.
+- 🛒 **Shopping Cart**: Add items, update quantities, and calculate totals dynamically.
+- 💳 **PayPal Checkout**: Secure payment processing using the PayPal JS SDK.
+- 📱 **Responsive Design**: Fully responsive UI built with TailwindCSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- **React 19**: Modern UI library for building user interfaces.
+- **Vite**: Fast build tool and development server.
+- **TailwindCSS 4**: Utility-first CSS framework for styling.
+- **PayPal React SDK**: seamless PayPal integration.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rohmat97/rd-market.git
+   cd rd-market
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Deployment
+
+This project is deployed to GitHub Pages.
+
+To deploy a new version:
+
+```bash
+npm run deploy
+```
+
+## Scripts
+
+- `npm run dev`: Start development server
+- `npm run build`: Build for production
+- `npm run preview`: Preview production build
+- `npm run lint`: Run ESLint
+- `npm run deploy`: Deploy to GitHub Pages
