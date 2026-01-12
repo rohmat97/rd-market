@@ -16,7 +16,7 @@ export const products = [
     image: "https://placehold.co/300x200/000000/ffffff?text=Dev+Hourly",
   },
   {
-    id: 2,
+    id: 3,
     name: "Custom Web Application Development",
     price: 12500,
     description:
@@ -24,7 +24,7 @@ export const products = [
     image: "https://placehold.co/300x200/2563eb/ffffff?text=Web+Dev",
   },
   {
-    id: 3,
+    id: 4,
     name: "Mobile App Development (iOS & Android)",
     price: 18000,
     description:
@@ -32,7 +32,7 @@ export const products = [
     image: "https://placehold.co/300x200/dc2626/ffffff?text=Mobile+App",
   },
   {
-    id: 4,
+    id: 5,
     name: "UI/UX Design Package",
     price: 2800,
     description:
@@ -40,7 +40,7 @@ export const products = [
     image: "https://placehold.co/300x200/db2777/ffffff?text=UI%2FUX",
   },
   {
-    id: 5,
+    id: 6,
     name: "E-commerce Solution Setup",
     price: 4500,
     description:
@@ -48,7 +48,7 @@ export const products = [
     image: "https://placehold.co/300x200/16a34a/ffffff?text=E-commerce",
   },
   {
-    id: 6,
+    id: 7,
     name: "Cloud Infrastructure & DevOps",
     price: 2500,
     description:
@@ -56,7 +56,7 @@ export const products = [
     image: "https://placehold.co/300x200/9333ea/ffffff?text=DevOps",
   },
   {
-    id: 7,
+    id: 8,
     name: "API Development & Integration",
     price: 1800,
     description:
@@ -64,7 +64,7 @@ export const products = [
     image: "https://placehold.co/300x200/ea580c/ffffff?text=API+Dev",
   },
   {
-    id: 8,
+    id: 9,
     name: "Software QA & Testing",
     price: 1500,
     description:
@@ -72,7 +72,7 @@ export const products = [
     image: "https://placehold.co/300x200/0891b2/ffffff?text=QA+Testing",
   },
   {
-    id: 9,
+    id: 10,
     name: "IT Consultancy & Strategy",
     price: 950,
     description:
@@ -80,7 +80,7 @@ export const products = [
     image: "https://placehold.co/300x200/4b5563/ffffff?text=Consulting",
   },
   {
-    id: 10,
+    id: 11,
     name: "SEO & Performance Optimization",
     price: 1200,
     description:
@@ -88,7 +88,7 @@ export const products = [
     image: "https://placehold.co/300x200/ca8a04/ffffff?text=SEO",
   },
   {
-    id: 11,
+    id: 12,
     name: "Maintenance & Support (Monthly)",
     price: 500,
     description:
@@ -96,7 +96,7 @@ export const products = [
     image: "https://placehold.co/300x200/059669/ffffff?text=Support",
   },
   {
-    id: 12,
+    id: 13,
     name: "Cybersecurity Audit",
     price: 3500,
     description:
@@ -104,7 +104,7 @@ export const products = [
     image: "https://placehold.co/300x200/b91c1c/ffffff?text=Security",
   },
   {
-    id: 13,
+    id: 14,
     name: "Legacy System Modernization",
     price: 15000,
     description:
