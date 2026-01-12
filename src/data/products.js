@@ -2,7 +2,15 @@ export const products = [
   {
     id: 1,
     name: "Development Web App (Hourly)",
-    price: 85,
+    price: 10,
+    description:
+      "Professional web application development services. Standard market rate for senior developers (approx. $85 CAD/hour).",
+    image: "https://placehold.co/300x200/000000/ffffff?text=Dev+Hourly",
+  },
+  {
+    id: 2,
+    name: "Development Web App (Weekly)",
+    price: 450,
     description:
       "Professional web application development services. Standard market rate for senior developers (approx. $85 CAD/hour).",
     image: "https://placehold.co/300x200/000000/ffffff?text=Dev+Hourly",
